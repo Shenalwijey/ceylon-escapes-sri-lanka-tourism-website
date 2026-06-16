@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Tour — Ceylon Escapes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar solid" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">🌿</div>
+      <div class="nav-logo-text">
+        <span>Ceylon Escapes</span>
+        <span>Sri Lanka Tours</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="booking.html" class="active">Book Now</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html" class="nav-cta">Sign In</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1549890762-0a3f8933816d?w=1600&q=80');"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Book Now</span>
+      </div>
+      <h1>Book Your Journey</h1>
+      <p>Fill in your details below and our travel specialists will confirm your booking within 24 hours.</p>
+    </div>
+  </div>
+
+  <!-- BOOKING SECTION -->
+  <section class="booking-section">
+    <div class="booking-wrapper">
+
+      <!-- Sidebar Info -->
+      <div class="booking-info fade-in">
+        <div class="section-tag" style="margin-bottom: 1rem;">Why Book With Us</div>
+        <h3>Your Journey, Our Promise</h3>
+        <p>From the moment you submit this form to the final wave goodbye at the airport, our team is with you every step — ensuring every part of your Sri Lanka experience is seamless and unforgettable.</p>
+        <ul class="booking-highlights">
+          <li>
+            <div class="highlight-icon">✅</div>
+            Free cancellation up to 14 days before departure
+          </li>
+          <li>
+            <div class="highlight-icon">🔒</div>
+            Secure booking — no payment until confirmed
+          </li>
+          <li>
+            <div class="highlight-icon">🏅</div>
+            Best price guarantee on all packages
+          </li>
+          <li>
+            <div class="highlight-icon">🌿</div>
+            100% sustainable, responsible tourism
+          </li>
+          <li>
+            <div class="highlight-icon">👨‍✈️</div>
+            Dedicated travel specialist assigned to you
+          </li>
+        </ul>
+        <div class="booking-contact">
+          <h4>Need Help Deciding?</h4>
+          <div class="contact-item">📞 +94 70 445 9015</div>
+          <div class="contact-item">✉️ hello@ceylonescapes.lk</div>
+          <div class="contact-item">💬 WhatsApp: +94 70 445 9015</div>
+          <div class="contact-item" style="margin-top: 0.5rem; font-size: 0.78rem; color: rgba(255,255,255,0.5);">Mon–Sat, 9am–6pm (Sri Lanka Time)</div>
+        </div>
+
+        <!-- Gallery side -->
+        <div style="margin-top: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem;">
+          <img src="https://images.unsplash.com/photo-1776335711525-b85475d75c0f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fHNyaWxhbmthJTIwZGFuY2V8ZW58MHx8MHx8fDA%3D" alt="" style="width:100%; height:110px; object-fit:cover; border-radius:10px;" />
+          
+          <img src="https://images.unsplash.com/photo-1561827978-45f07fa822fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNyaWxhbmthJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D" alt="" style="width:100%; height:110px; object-fit:cover; border-radius:10px;" />
+
+          <img src="https://images.unsplash.com/photo-1566766188646-5d0310191714?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHNyaWxhbmthfGVufDB8fDB8fHww" alt="" style="width:100%; height:110px; object-fit:cover; border-radius:10px;" />
+
+          <img src="https://images.unsplash.com/photo-1720945489937-e38465704695?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style="width:100%; height:110px; object-fit:cover; border-radius:10px;" />
+        </div>
+      </div>
+
+      <!-- Booking Form -->
+      <div class="form-card fade-in">
+        <h3>Reserve Your Spot</h3>
+        <p class="form-subtitle">Complete the form below. Our team will contact you within 24 hours to confirm your booking.</p>
+
+        <form id="bookingForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Your first name" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Your last name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900" required />
+            </div>
+            <div class="form-group">
+              <label for="country">Country of Residence *</label>
+              <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option>United Kingdom</option>
+                <option>United States</option>
+                <option>Australia</option>
+                <option>Germany</option>
+                <option>France</option>
+                <option>Singapore</option>
+                <option>India</option>
+                <option>Japan</option>
+                <option>Canada</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="guests">Number of Guests *</label>
+              <select id="guests" name="guests" required>
+                <option value="" disabled selected>Select guests</option>
+                <option>1 (Solo)</option>
+                <option>2 (Couple)</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5–8 (Small Group)</option>
+                <option>9+ (Large Group)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="package">Tour Package *</label>
+              <select id="package" name="package" required>
+                <option value="" disabled selected>Select a package</option>
+                <option>Classic Cultural Triangle (5D/4N) — $499</option>
+                <option>Grand Island Discovery (10D/9N) — $1,199</option>
+                <option>South Coast Beach Retreat (7D/6N) — $749</option>
+                <option>Wildlife Safari Express (6D/5N) — $849</option>
+                <option>Hill Country Escape (4D/3N) — $420</option>
+                <option>East Coast Paradise (5D/4N) — $590</option>
+                <option>Custom Itinerary (specify below)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="arrivalDate">Arrival Date *</label>
+              <input type="date" id="arrivalDate" name="arrivalDate" required />
+            </div>
+            <div class="form-group full">
+              <label for="specialRequests">Special Requests or Custom Requirements</label>
+              <textarea id="specialRequests" name="specialRequests" placeholder="Tell us about dietary needs, accessibility requirements, celebration occasions, specific interests (wildlife, photography, yoga...) or if you'd like a custom itinerary built for you."></textarea>
+            </div>
+
+            <div class="form-group full" style="background: rgba(139,26,26,0.05); border-radius: 10px; padding: 1rem; border: 1px solid rgba(139,26,26,0.15);">
+              <div style="display: flex; align-items: flex-start; gap: 0.7rem;">
+                <input type="checkbox" id="agree" name="agree" required style="width: auto; margin-top: 3px;" />
+                <label for="agree" style="font-size: 0.83rem; color: var(--text-muted); font-weight: 400; text-transform: none; letter-spacing: 0; cursor: pointer;">
+                  I agree to Ceylon Escapes' <a href="#" style="color: var(--primary);">Terms & Conditions</a> and <a href="#" style="color: var(--primary);">Privacy Policy</a>. I understand this is a booking enquiry and no payment is required at this stage.
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-primary form-submit">
+            ✦ Send Booking Request
+          </button>
+          <div id="bookingMsg" class="form-message"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section style="background: white; padding: 3.5rem 2rem; border-top: 1px solid #f0f0f0;">
+    <div class="container">
+      <div style="display: flex; align-items: center; justify-content: center; gap: 4rem; flex-wrap: wrap; opacity: 0.7;" class="fade-in trust-strip">
+        <div style="text-align: center;">
+          <div style="font-size: 1.5rem; font-weight: 700; color: var(--dark);">SSL Secured</div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">256-bit encryption</div>
+        </div>
+        <div style="width: 1px; height: 40px; background: #e0e0e0;"></div>
+        <div style="text-align: center;">
+          <div style="font-size: 1.5rem; font-weight: 700; color: var(--dark);">SLTDA Registered</div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">Reg. No. 12345</div>
+        </div>
+        <div style="width: 1px; height: 40px; background: #e0e0e0;"></div>
+        <div style="text-align: center;">
+          <div style="font-size: 1.5rem; font-weight: 700; color: var(--dark);">4.9 / 5 ★</div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">TripAdvisor Rating</div>
+        </div>
+        <div style="width: 1px; height: 40px; background: #e0e0e0;"></div>
+        <div style="text-align: center;">
+          <div style="font-size: 1.5rem; font-weight: 700; color: var(--dark);">Free Cancel</div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">Up to 14 days prior</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">
+          <div class="logo-icon">🌿</div>
+          <div class="nav-logo-text">
+            <span>Ceylon Escapes</span>
+            <span>Sri Lanka Tours</span>
+          </div>
+        </a>
+        <p>Your trusted partner for unforgettable Sri Lanka travel experiences since 2016.</p>
+        <div class="footer-socials">
+          <a class="social-btn" href="#">f</a>
+          <a class="social-btn" href="#">in</a>
+          <a class="social-btn" href="#">✉</a>
+          <a class="social-btn" href="#">▶</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Tour Packages</a></li>
+          <li><a href="booking.html">Book a Tour</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Packages</h4>
+        <ul class="footer-links">
+          <li><a href="packages.html">Cultural Triangle</a></li>
+          <li><a href="packages.html">Grand Island</a></li>
+          <li><a href="packages.html">Beach Retreat</a></li>
+          <li><a href="packages.html">Wildlife Safari</a></li>
+          <li><a href="packages.html">Hill Country</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="#">📍 Colombo, Sri Lanka</a></li>
+          <li><a href="#">📞 +94 70 445 9015</a></li>
+          <li><a href="#">✉️ hello@ceylonescapes.lk</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Ceylon Escapes. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ceylon Escapes — Discover Sri Lanka</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">🌿</div>
+      <div class="nav-logo-text">
+        <span>Ceylon Escapes</span>
+        <span>Sri Lanka Tours</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="destinations.html">Destinations</a></li>
+      <li><a href="packages.html">Packages</a></li>
+      <li><a href="booking.html">Book Now</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html" class="nav-cta">Sign In</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">✦ Pearl of the Indian Ocean</div>
+        <h1 class="hero-title">
+          Discover the Magic of
+          <span>Sri Lanka</span>
+        </h1>
+        <p class="hero-subtitle">
+          From ancient temples rising above lush jungle canopies to pristine beaches where the ocean glows turquoise — Sri Lanka is a world unto itself, waiting to be explored.
+        </p>
+        <div class="hero-actions">
+          <a href="packages.html" class="btn-primary">✦ Explore Packages</a>
+          <a href="destinations.html" class="btn-outline">View Destinations →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-count="500" data-suffix="+">500+</span>
+            <span class="stat-label">Happy Travellers</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="12" data-suffix="+">12+</span>
+            <span class="stat-label">Destinations</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="8" data-suffix="+">8+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-cards">
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1590580808117-1caa8e13f0e5?w=600&auto=format&fit=crop&q=60" alt="Sigiriya Rock Fortress" />
+          <div class="hero-card-label">🏛️ Sigiriya Rock Fortress</div>
+        </div>
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1759147833468-4f03d60bfff3?w=600&auto=format&fit=crop&q=60" alt="Tea Plantation" />
+          <div class="hero-card-label">🍃 Nuwara Eliya</div>
+        </div>
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1680553362060-9ed111958ada?w=600&auto=format&fit=crop&q=60" alt="Tropical Beach" />
+          <div class="hero-card-label">🌊 Mirissa Beach</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY STRIP -->
+  <div class="gallery-section">
+    <div class="gallery-strip" id="galleryStrip">
+      <img src="https://images.unsplash.com/photo-1743585826344-aea35e952642?w=600&auto=format&fit=crop&q=60" alt="Galle Fort" />
+      <img src="https://images.unsplash.com/photo-1619183318129-cd95bc882275?w=600&auto=format&fit=crop&q=60" alt="Elephants" />
+      <img src="https://images.unsplash.com/photo-1665849050332-8d5d7e59afb6?w=600&auto=format&fit=crop&q=60" alt="Temple" />
+      <img src="https://images.unsplash.com/photo-1659898170356-2548029008a6?w=600&auto=format&fit=crop&q=60" alt="Tea Plantation" />
+      <img src="https://plus.unsplash.com/premium_photo-1666254114402-cd16bc302aea?w=600&auto=format&fit=crop&q=60" alt="Sigiriya" />
+      <img src="https://plus.unsplash.com/premium_photo-1754251312549-14645f84049c?w=600&auto=format&fit=crop&q=60" alt="Beach" />
+      <img src="https://plus.unsplash.com/premium_photo-1754269230163-d90c149fa635?w=600&auto=format&fit=crop&q=60" alt="Waterfall" />
+      <img src="https://images.unsplash.com/photo-1661768508643-e260f6f8e06c?w=600&auto=format&fit=crop&q=60" alt="Wildlife" />
+      <!-- Duplicate for seamless loop -->
+      <img src="https://images.unsplash.com/photo-1743585826344-aea35e952642?w=600&auto=format&fit=crop&q=60" alt="Galle Fort" />
+      <img src="https://images.unsplash.com/photo-1619183318129-cd95bc882275?w=600&auto=format&fit=crop&q=60" alt="Elephants" />
+      <img src="https://images.unsplash.com/photo-1665849050332-8d5d7e59afb6?w=600&auto=format&fit=crop&q=60" alt="Temple" />
+      <img src="https://images.unsplash.com/photo-1659898170356-2548029008a6?w=600&auto=format&fit=crop&q=60" alt="Tea Plantation" />
+      <img src="https://plus.unsplash.com/premium_photo-1666254114402-cd16bc302aea?w=600&auto=format&fit=crop&q=60" alt="Sigiriya" />
+      <img src="https://plus.unsplash.com/premium_photo-1754251312549-14645f84049c?w=600&auto=format&fit=crop&q=60" alt="Beach" />
+      <img src="https://plus.unsplash.com/premium_photo-1754269230163-d90c149fa635?w=600&auto=format&fit=crop&q=60" alt="Waterfall" />
+      <img src="https://images.unsplash.com/photo-1661768508643-e260f6f8e06c?w=600&auto=format&fit=crop&q=60" alt="Wildlife" />
+    </div>
+  </div>
+
+  <!-- FEATURED DESTINATIONS -->
+  <section class="destinations-section" id="featured">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Top Picks</div>
+        <h2 class="section-title">Unmissable <span>Destinations</span></h2>
+        <p class="section-desc">From ancient wonders to coastal paradise — every corner of Sri Lanka tells a different story.</p>
+      </div>
+      <div class="destinations-grid">
+        <div class="dest-card fade-in">
+          <div class="dest-img-wrap">
+            <img src="https://plus.unsplash.com/premium_photo-1730145749791-28fc538d7203?w=600&auto=format&fit=crop&q=60" alt="Sigiriya" />
+            <span class="dest-badge">Heritage</span>
+          </div>
+          <div class="dest-body">
+            <h3>Sigiriya Rock Fortress</h3>
+            <div class="dest-meta">📍 Central Province &nbsp;·&nbsp; ⏱ Half Day</div>
+            <p>Climb the legendary Lion Rock — a 5th-century palace perched 200m above the jungle, surrounded by ancient frescoes and mirror walls.</p>
+            <div class="dest-footer">
+              <div class="dest-price">$45 <span>/ person</span></div>
+              <a href="destinations.html" class="btn-sm">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="dest-card fade-in">
+          <div class="dest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1756645579704-10a7f619956c?w=600&auto=format&fit=crop&q=60" alt="Nuwara Eliya" />
+            <span class="dest-badge">Hill Country</span>
+          </div>
+          <div class="dest-body">
+            <h3>Nuwara Eliya Tea Country</h3>
+            <div class="dest-meta">📍 Central Highlands &nbsp;·&nbsp; ⏱ Full Day</div>
+            <p>Walk through mist-draped tea estates, tour a colonial-era tea factory, and breathe the cool mountain air of Sri Lanka's "Little England."</p><br>
+            <div class="dest-footer">
+              <div class="dest-price">$60 <span>/ person</span></div>
+              <a href="destinations.html" class="btn-sm">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="dest-card fade-in">
+          <div class="dest-img-wrap">
+            <img src="https://images.unsplash.com/photo-1650970366119-34cb82f8b4c1?w=600&auto=format&fit=crop&q=60" alt="Mirissa Beach" />
+            <span class="dest-badge">Beach</span>
+          </div>
+          <div class="dest-body">
+            <h3>Mirissa & South Coast</h3>
+            <div class="dest-meta">📍 Southern Province &nbsp;·&nbsp; ⏱ 2–3 Days</div>
+            <p>Powdery white sand, turquoise waters, and blue whale watching. Mirissa is Sri Lanka's most celebrated tropical beach escape.</p><br>
+            <div class="dest-footer">
+              <div class="dest-price">$55 <span>/ person</span></div>
+              <a href="destinations.html" class="btn-sm">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view-all-wrap fade-in">
+        <a href="destinations.html" class="btn-primary">View All Destinations →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKAGES PREVIEW -->
+  <section class="packages-section" id="packages">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Travel Plans</div>
+        <h2 class="section-title">Curated <span style="color:var(--gold)">Tour Packages</span></h2>
+        <p class="section-desc">Thoughtfully designed itineraries for every kind of traveller — from solo adventurers to family holidays.</p>
+      </div>
+      <div class="packages-grid">
+        <div class="pkg-card fade-in">
+          <div class="pkg-img">
+            <img src="https://images.unsplash.com/photo-1655194283825-e2f6a2a5aff6?w=600&auto=format&fit=crop&q=60" alt="Classic Tour" />
+          </div>
+          <div class="pkg-body">
+            <div class="pkg-duration">5 Days · 4 Nights</div>
+            <h3>Classic Cultural Triangle</h3>
+            <p>Explore Sigiriya, Dambulla Cave Temple, Polonnaruwa, and Kandy — the cultural heartland of Sri Lanka.</p>
+            <ul class="pkg-features">
+              <li>UNESCO World Heritage Sites</li>
+              <li>Guided heritage walks</li>
+              <li>4-star hotel accommodation</li>
+              <li>All transfers included</li>
+            </ul>
+            <div class="pkg-footer">
+              <div class="pkg-price">$499 <span>/ person</span></div>
+              <a href="booking.html" class="btn-gold">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="pkg-card featured fade-in">
+          <div class="pkg-popular">Most Popular</div>
+          <div class="pkg-img">
+            <img src="https://images.unsplash.com/photo-1709754464507-3368e83fa225?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Grand Tour" />
+          </div>
+          <div class="pkg-body">
+            <div class="pkg-duration">10 Days · 9 Nights</div>
+            <h3>Grand Island Discovery</h3>
+            <p>The definitive Sri Lanka experience — from highland tea country and ancient ruins to whale watching and beach sunsets.</p>
+            <ul class="pkg-features">
+              <li>North, central, south & coast</li>
+              <li>Wildlife safari included</li>
+              <li>Luxury boutique hotels</li>
+              <li>Private chauffeur guide</li>
+            </ul>
+            <div class="pkg-footer">
+              <div class="pkg-price">$1,199 <span>/ person</span></div>
+              <a href="booking.html" class="btn-gold">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="pkg-card fade-in">
+          <div class="pkg-img">
+            <img src="https://images.unsplash.com/photo-1776336885293-fba436d4281a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beach Retreat" />
+          </div>
+          <div class="pkg-body">
+            <div class="pkg-duration">7 Days · 6 Nights</div>
+            <h3>South Coast Beach Retreat</h3>
+            <p>Galle Fort, surf lessons at Weligama, whale watching at Mirissa, and hammock time on Tangalle's hidden shores.</p>
+            <ul class="pkg-features">
+              <li>Whale & dolphin watching</li>
+              <li>Galle Fort heritage tour</li>
+              <li>Beachfront resort stay</li>
+              <li>Snorkelling excursion</li>
+            </ul>
+            <div class="pkg-footer">
+              <div class="pkg-price">$749 <span>/ person</span></div>
+              <a href="booking.html" class="btn-gold">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view-all-wrap fade-in">
+        <a href="packages.html" class="btn-primary">See All Packages →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Why Ceylon Escapes</div>
+        <h2 class="section-title">Travel <span>Differently</span></h2>
+        <p class="section-desc">We go beyond booking — we craft experiences that stay with you long after you've returned home.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🧭</div>
+          <h3>Local Expert Guides</h3>
+          <p>Every tour is led by passionate local guides who share stories, traditions, and secret spots no guidebook mentions.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">✈️</div>
+          <h3>Seamless Planning</h3>
+          <p>From airport transfers to hotel check-ins, we handle every detail so you can focus entirely on the adventure.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">🛡️</div>
+          <h3>Safe & Responsible</h3>
+          <p>All tours follow responsible tourism guidelines. We partner with local communities to create positive impact.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-icon">💬</div>
+          <h3>24/7 Support</h3>
+          <p>Our team is with you every step of the journey — reachable by phone, WhatsApp, or email at any hour.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Traveller Stories</div>
+        <h2 class="section-title">What Our Guests <span>Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-in">
+          <div class="stars">★★★★★</div>
+          <div class="quote-icon">"</div>
+          <p>Ceylon Escapes turned a dream trip into a flawless reality. Our guide Nuwan knew every hidden waterfall and family-run tea shop — the kind of places you'd never find on your own.</p>
+          <div class="reviewer">
+            <img class="reviewer-img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Sarah" />
+            <div>
+              <div class="reviewer-name">Sarah Mitchell</div>
+              <div class="reviewer-loc">🇬🇧 London, UK</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">★★★★★</div>
+          <div class="quote-icon">"</div>
+          <p>The Grand Island Discovery package was worth every cent. Elephants at sunrise in Minneriya, whale watching at Mirissa, a stroll through Galle Fort at dusk — all in one journey. Incredible.</p>
+          <div class="reviewer">
+            <img class="reviewer-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="James" />
+            <div>
+              <div class="reviewer-name">James Thornton</div>
+              <div class="reviewer-loc">🇦🇺 Melbourne, Australia</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <div class="stars">★★★★★</div>
+          <div class="quote-icon">"</div>
+          <p>We travelled with two young kids and the team was wonderfully accommodating. Flexible scheduling, child-friendly activities, and the kindness of every local we met made it magical.</p>
+          <div class="reviewer">
+            <img class="reviewer-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Priya" />
+            <div>
+              <div class="reviewer-name">Priya Nair</div>
+              <div class="reviewer-loc">🇸🇬 Singapore</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
+    <div class="container">
+      <h2>Get Inspired for Your Next Journey</h2>
+      <p>Subscribe for handpicked travel guides, seasonal offers, and insider tips on Sri Lanka.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit" class="btn-primary">Subscribe ✦</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo">
+          <div class="logo-icon">🌿</div>
+          <div class="nav-logo-text">
+            <span>Ceylon Escapes</span>
+            <span>Sri Lanka Tours</span>
+          </div>
+        </a>
+        <p>Your trusted partner for unforgettable Sri Lanka travel experiences since 2016. Licensed, insured, and deeply passionate about sharing the island's wonders.</p>
+        <div class="footer-socials">
+          <a class="social-btn" href="#">f</a>
+          <a class="social-btn" href="#">in</a>
+          <a class="social-btn" href="#">✉</a>
+          <a class="social-btn" href="#">▶</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Tour Packages</a></li>
+          <li><a href="booking.html">Book a Tour</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Destinations</h4>
+        <ul class="footer-links">
+          <li><a href="destinations.html">Sigiriya</a></li>
+          <li><a href="destinations.html">Kandy</a></li>
+          <li><a href="destinations.html">Galle</a></li>
+          <li><a href="destinations.html">Yala Safari</a></li>
+          <li><a href="destinations.html">Ella</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="#">📍 Colombo, Sri Lanka</a></li>
+          <li><a href="#">📞 +94 70 445 9015</a></li>
+          <li><a href="#">✉️ hello@ceylonescapes.lk</a></li>
+          <li><a href="#">🕐 Mon–Sat 9am–6pm</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Ceylon Escapes. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

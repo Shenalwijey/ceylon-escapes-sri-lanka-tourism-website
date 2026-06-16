@@ -8,6 +8,12 @@ A fully responsive, multi-page **frontend** website for a Sri Lanka tour company
 
 ---
 
+## 🔗 Live Demo
+
+👉 [View Live Site](https://shenalwijey.github.io/ceylon-escapes-sri-lanka-tourism-website/)
+
+---
+
 ## ✨ Features
 
 - 🏠 Multi-page layout — Home, About, Destinations, Packages, Booking, Contact, Login
